@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🪶 Udaanika – Bird Migration & Rescue Platform
 
 > *Every wing deserves a chance to fly.*
@@ -215,3 +216,7 @@ API on Render/Railway, MongoDB Atlas, client on Vercel/Netlify with `VITE_API_UR
 - Interactive maps (Leaflet) for rescues and migration routes
 - Cloud image storage, image moderation, i18n (Hindi/regional languages), PWA/offline reporting
 - CI pipeline (lint, tests, build), React and end-to-end tests
+=======
+# UDAANIKA
+Udaanika, a full-stack bird rescue and migration platform. It uses React, Node/Express, MongoDB, and a Python computer-vision service, with user, volunteer, and admin roles.
+>>>>>>> 10a28757324ed3137955a5883e774ecf27543ba6
