@@ -14,14 +14,6 @@ export const DIRECTIONS = ['N', 'NE', 'E', 'SE', 'S', 'SW', 'W', 'NW'];
 export const CONSERVATION = ['Least Concern', 'Near Threatened', 'Vulnerable', 'Endangered', 'Critically Endangered', 'Unknown'];
 
 // Mirrors server/utils/rescueWorkflow.js (the server is the source of truth and re-validates every change).
-export const TRANSITIONS = {
-  Pending: ['Assigned', 'Cancelled', 'Rejected'],
-  Assigned: ['In Progress', 'Pending', 'Cancelled'],
-  'In Progress': ['Rescued', 'Cancelled'],
-  Rescued: ['Completed'],
-  Completed: [],
-  Cancelled: [],
-  Rejected: [],
-};
+
 export const DIRECTIONS = ['N', 'NE', 'E', 'SE', 'S', 'SW', 'W', 'NW'];
 export const AVAILABILITY = ['available', 'busy', 'offline'];
